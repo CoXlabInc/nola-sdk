@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "nola-sdk:toggle"
+    "ctrl-alt-s": "nola-sdk:showControlPanel",
+    "ctrl-alt-c": "nola-sdk:createProject"
   }
 }

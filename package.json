@@ -6,7 +6,7 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "nola-sdk:toggle"
+    "atom-workspace": "nola-sdk:showControlPanel"
   },
   "repository": "https://github.com/CoXlabInc/nola-sdk",
   "license": "MIT",

@@ -23,7 +23,7 @@ describe('NolaSdk', () => {
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'nola-sdk:toggle');
+      atom.commands.dispatch(workspaceElement, 'nola-sdk:showControlPanel');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -37,7 +37,7 @@ describe('NolaSdk', () => {
 
         let nolaSdkPanel = atom.workspace.panelForItem(nolaSdkElement);
         expect(nolaSdkPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'nola-sdk:toggle');
+        atom.commands.dispatch(workspaceElement, 'nola-sdk:showControlPanel');
         expect(nolaSdkPanel.isVisible()).toBe(false);
       });
     });
@@ -55,7 +55,7 @@ describe('NolaSdk', () => {
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'nola-sdk:toggle');
+      atom.commands.dispatch(workspaceElement, 'nola-sdk:showControlPanel');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -65,7 +65,7 @@ describe('NolaSdk', () => {
         // Now we can test for view visibility
         let nolaSdkElement = workspaceElement.querySelector('.nola-sdk');
         expect(nolaSdkElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'nola-sdk:toggle');
+        atom.commands.dispatch(workspaceElement, 'nola-sdk:showControlPanel');
         expect(nolaSdkElement).not.toBeVisible();
       });
     });
