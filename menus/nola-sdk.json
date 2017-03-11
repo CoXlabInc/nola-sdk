@@ -9,44 +9,47 @@
   },
   "menu": [
     {
-      "label": "Nol.A",
-      "submenu": [
-        {
-          "label": "Show Control Panel",
-          "command": "nola-sdk:showControlPanel"
-        },
-        {
-          "label": "Create Project",
-          "command": "nola-sdk:createProject"
-        },
-        { "type": "separator" },
-        {
-          "label": "Open Project",
-          "command": "nola-sdk:openProject"
-        },
-        {
-          "label": "Close Project",
-          "command": "nola-sdk:closeProject"
-        },
-        { "type": "separator" },
-        {
-          "label": "Build Project",
-          "command": "nola-sdk:buildProject"
-        },
-        {
-          "label": "Clean Project",
-          "command": "nola-sdk:cleanProject"
-        },
-        { "type": "separator" },
-        {
-          "label": "Update SDK",
-          "command": "nola-sdk:libUpdate"
-        },
-        {
-          "label": "Set Organization",
-          "command": "nola-sdk:setPrivateKey"
-        }
-      ]
+      "label": "Packages",
+      "submenu": [ {
+        "label": "Nol.A-SDK",
+        "submenu": [
+          {
+            "label": "Show Control Panel",
+            "command": "nola-sdk:showControlPanel"
+          },
+          {
+            "label": "Create Project",
+            "command": "nola-sdk:createProject"
+          },
+          { "type": "separator" },
+          {
+            "label": "Open Project",
+            "command": "nola-sdk:openProject"
+          },
+          {
+            "label": "Close Project",
+            "command": "nola-sdk:closeProject"
+          },
+          { "type": "separator" },
+          {
+            "label": "Build Project",
+            "command": "nola-sdk:buildProject"
+          },
+          {
+            "label": "Clean Project",
+            "command": "nola-sdk:cleanProject"
+          },
+          { "type": "separator" },
+          {
+            "label": "Update SDK",
+            "command": "nola-sdk:updateSdk"
+          },
+          {
+            "label": "Set Organization",
+            "command": "nola-sdk:setPrivateKey"
+          }
+        ]
+      } ]
     }
   ]
 }
