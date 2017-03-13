@@ -18,10 +18,14 @@
             "command": "nola-sdk:showControlPanel"
           },
           {
+            "label": "Hide Control Panel",
+            "command": "nola-sdk:hideControlPanel"
+          },
+          { "type": "separator" },
+          {
             "label": "Create Project",
             "command": "nola-sdk:createProject"
           },
-          { "type": "separator" },
           {
             "label": "Open Project",
             "command": "nola-sdk:openProject"
