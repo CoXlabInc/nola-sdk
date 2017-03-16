@@ -16,6 +16,7 @@
   "dependencies": {
     "unzip": "<=0.1.11",
     "fs-extra": "<=2.0.0",
-    "atom-space-pen-views": "<=2.2.0"
+    "atom-space-pen-views": "<=2.2.0",
+    "chmodr": "<=1.0.2"
   }
 }
