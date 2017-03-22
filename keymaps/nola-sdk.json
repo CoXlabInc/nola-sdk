@@ -2,6 +2,7 @@
   "atom-workspace": {
     "ctrl-alt-s": "nola-sdk:showControlPanel",
     "ctrl-alt-x": "nola-sdk:hideControlPanel",
-    "ctrl-alt-c": "nola-sdk:createProject"
+    "ctrl-alt-c": "nola-sdk:createProject",
+    "ctrl-shift-d": "nola-sdk:buildProject"
   }
 }
