@@ -1,10 +1,9 @@
 {
   "name": "nola-sdk",
   "main": "./lib/nola-sdk",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Nol.A SDK for IoT System Development",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "nola-sdk:showControlPanel"
   },
