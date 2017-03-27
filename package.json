@@ -1,7 +1,7 @@
 {
   "name": "nola-sdk",
   "main": "./lib/nola-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Nol.A SDK for IoT System Development",
   "keywords": [],
   "activationCommands": {
