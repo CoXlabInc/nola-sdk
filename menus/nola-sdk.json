@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle nola-sdk",
-        "command": "nola-sdk:toggle"
+        "label": "Build Nol.A Project",
+        "command": "nola-sdk:buildProject"
       }
     ]
   },
@@ -49,8 +49,8 @@
             "command": "nola-sdk:updateSdk"
           },
           {
-            "label": "Set Organization",
-            "command": "nola-sdk:setPrivateKey"
+            "label": "Copyright Notice",
+            "command": "nola-sdk:copyrightNotice"
           }
         ]
       } ]
