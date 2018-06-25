@@ -14,11 +14,11 @@
   },
   "dependencies": {
     "unzip": "<=0.1.11",
-    "fs-extra": "<=2.0.0",
+    "fs-extra": "<=6.0.1",
     "atom-space-pen-views": "<=2.2.0",
     "chmodr": "<=1.0.2",
-    "xregexp": "<=3.1.1",
-    "atom-package-deps": "<=4.5.0"
+    "xregexp": "<=4.2.0",
+    "atom-package-deps": "<=4.6.2"
   },
   "package-deps": [
     "build"
