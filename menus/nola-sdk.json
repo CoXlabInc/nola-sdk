@@ -1,9 +1,9 @@
 {
   "context-menu": {
-    "atom-text-editor": [
+    ".tree-view": [
       {
-        "label": "Build Nol.A Project",
-        "command": "nola-sdk:buildProject"
+        "label": "Open Nol.A Project",
+        "command": "nola-sdk:openProjectFromTree"
       }
     ]
   },
