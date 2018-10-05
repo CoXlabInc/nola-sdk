@@ -45,6 +45,10 @@
           },
           { "type": "separator" },
           {
+            "label": "Settings",
+            "command": "nola-sdk:settings"
+          },
+          {
             "label": "Update SDK",
             "command": "nola-sdk:updateSdk"
           },
