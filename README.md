@@ -2,7 +2,7 @@
 
 Nol.A is a SDK for IoT system development.
 
-![Nol.A SDK](http://www.coxlab.kr/wp-content/uploads/2015/07/NOLA-1.png "Nol.A-SDK")
+![Nol.A SDK](https://www.coxlab.kr/wp-content/uploads/2015/07/NOLA-1.png "Nol.A-SDK")
 
 ### Supports various development hardwares
 
