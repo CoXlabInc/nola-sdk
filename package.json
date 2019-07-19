@@ -17,7 +17,8 @@
     "atom-space-pen-views": "*",
     "fs-extra": "*",
     "yauzl": "*",
-    "serialport": "*"
+    "serialport": "*",
+    "xregexp": "*"
   },
   "package-deps": [
     "build"
@@ -26,6 +27,13 @@
     "builder": {
       "versions": {
         "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "consumedServices": {
+    "linter-indie": {
+      "versions": {
+        "2.0.0": "consumeLinterRegistry"
       }
     }
   }
