@@ -4,6 +4,9 @@
   "version": "0.12.3",
   "description": "Nol.A SDK for IoT System Development",
   "keywords": [],
+  "scripts": {
+    "install": "electron-rebuild"
+  },
   "activationCommands": {
     "atom-workspace": "nola-sdk:showControlPanel"
   },
