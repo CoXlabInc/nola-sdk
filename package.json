@@ -15,7 +15,6 @@
   "dependencies": {
     "atom-package-deps": "^5.1.0",
     "atom-space-pen-views": "*",
-    "electron-rebuild": "^1.8.5",
     "fs-extra": "^8.1.0",
     "serialport": "^7.1.5",
     "xregexp": "^4.2.4",
@@ -37,5 +36,9 @@
         "2.0.0": "consumeLinterRegistry"
       }
     }
+  },
+  "devDependencies": {
+    "electron": "^6.0.1",
+    "electron-rebuild": "^1.8.5"
   }
 }
