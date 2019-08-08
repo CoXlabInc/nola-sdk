@@ -4,21 +4,24 @@
   "version": "0.12.1",
   "description": "Nol.A SDK for IoT System Development",
   "keywords": [],
+  "scripts": {
+    "install": "npm_config_target=3.1.10 electron-rebuild"
+  },
   "activationCommands": {
     "atom-workspace": "nola-sdk:showControlPanel"
   },
   "repository": "https://github.com/CoXlabInc/nola-sdk",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.39.0 <1.40.0"
   },
   "dependencies": {
     "atom-package-deps": "*",
     "atom-space-pen-views": "*",
     "fs-extra": "*",
-    "yauzl": "*",
-    "serialport": "*",
-    "xregexp": "*"
+    "serialport": "^7.1.5",
+    "xregexp": "*",
+    "yauzl": "*"
   },
   "package-deps": [
     "build"
@@ -36,5 +39,9 @@
         "2.0.0": "consumeLinterRegistry"
       }
     }
+  },
+  "devDependencies": {
+    "electron": "^3.1.10",
+    "electron-rebuild": "^1.8.5"
   }
 }
