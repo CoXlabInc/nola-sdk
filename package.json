@@ -13,12 +13,13 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-package-deps": "*",
+    "atom-package-deps": "^5.1.0",
     "atom-space-pen-views": "*",
-    "fs-extra": "*",
-    "yauzl": "*",
-    "serialport": "*",
-    "xregexp": "*"
+    "electron-rebuild": "^1.8.5",
+    "fs-extra": "^8.1.0",
+    "serialport": "^7.1.5",
+    "xregexp": "^4.2.4",
+    "yauzl": "^2.10.0"
   },
   "package-deps": [
     "build"
