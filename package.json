@@ -5,7 +5,8 @@
   "description": "Nol.A SDK for IoT System Development",
   "keywords": [],
   "scripts": {
-    "install": "electron-rebuild"
+    "install": "electron-rebuild",
+    "start": "electron-rebuild"
   },
   "activationCommands": {
     "atom-workspace": "nola-sdk:showControlPanel"
@@ -18,8 +19,7 @@
   "dependencies": {
     "atom-package-deps": "*",
     "atom-space-pen-views": "*",
-    "electron": "^3.1.10",
-    "electron-rebuild": "^1.8.5",
+    "electron-rebuild": "^1.8.6",
     "fs-extra": "*",
     "serialport": "^7.1.5",
     "xregexp": "*",
