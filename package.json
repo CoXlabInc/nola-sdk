@@ -20,7 +20,7 @@
     "atom-package-deps": "*",
     "atom-space-pen-views": "*",
     "electron": "^4.2.7",
-    "electron-rebuild": "^1.8.6",
+    "electron-rebuild": "git://github.com/electron/electron-rebuild.git#9d66923",
     "fs-extra": "*",
     "serialport": "^7.1.5",
     "xregexp": "*",
