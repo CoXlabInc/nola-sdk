@@ -19,7 +19,6 @@
   "dependencies": {
     "atom-package-deps": "*",
     "atom-select-list": "^0.7.2",
-    "atom-space-pen-views": "*",
     "electron": "^4.2.7",
     "electron-rebuild": "^1.8.8",
     "fs-extra": "*",
