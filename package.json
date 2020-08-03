@@ -19,7 +19,7 @@
   "dependencies": {
     "atom-package-deps": "*",
     "atom-select-list": "^0.7.2",
-    "electron": "^5.0.13",
+    "electron": "^7.2.4",
     "electron-rebuild": "^1.11.0",
     "fs-extra": "*",
     "serialport": "^7.1.5",
